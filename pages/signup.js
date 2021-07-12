@@ -1,54 +1,45 @@
 import React from 'react'
 export default function signup() {
     return (
-    <div>
-  <title>sejarah</title>
-  <meta charSet="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-  <link rel="icon" href="gambar/icn.png" type="image/png" />
-  <style dangerouslySetInnerHTML={{__html: "\n              .a {\n                  width: 100%;\n                  padding: 7px 20px;\n                  margin: 8px 0;\n                  box-sizing: border-box;\n                  border: 2px solid #ccc;\n                  -webkit-transition: 0.5s;\n                  transition: 0.5s;\n                  outline: none;\n                  border-radius: 10px;\n                  }\n                  .select{\n                  -webkit-appearance: menulist-button;\n                  height:30px;\n                  border-radius: 10px;\n                  padding: 5px 20px;\n              }\n        " }} />
-  <section className="jumbotron text-center" style={{backgroundColor: '#c1e8ff'}}>
-    <div className="container block">
-      <a className="navbar-brand logo_h" href="temanbacaku.html">
-        <img src="/logo.png" alt="logo" style={{width: 350}} />
-      </a>
-      <h1>Selamat Datang</h1>
-      <h2>isi data anda!:</h2>
-      <center>
-        <table>
-          <tbody><tr>
-              <td><i className="fa fa-user" /></td>
-              <td><input type="text" id="nama" className="a" placeholder="nama" /></td>          
-            </tr>
-            <tr>
-              <td><i className="fa fa-calendar-alt" /></td>
-              <td><input type="date" id="ttl" className="a" placeholder="tanggal lahir" /></td>          
-            </tr>
-            <tr>
-              <td><i className="fa fa-venus-mars" /></td>
-              <td>
-                <select name id className="select">
-                  <option value selected>   jenis kelamin</option>
-                  <option value>pria</option>
-                  <option value>wanita</option>
-                </select>
-              </td>          
-            </tr>
-            <tr>
-              <td><i className="fa fa-user" /></td>
-              <td><input type="text" id="nama" className="a" placeholder="Nomor HP" /></td>          
-            </tr>
-            <tr>
-              <td><i className="fa fa-key" /></td>
-              <td><input type="text" onclick="umur()" id="pswd" className="a" placeholder="paswod" /></td>          
-            </tr>
-            <tr><td><br /></td></tr>
-            <tr>
-              <td colSpan='2'className="text-center"><button type="button" className="btn btn-outline-primary" onclick="simpandata()">daftar</button></td>
-            </tr>
-          </tbody></table>
-      </center>
-    </div>
-  </section></div>
+<div className="limiter">
+<div className="container-login100">
+  <div className="wrap-login100">
+    <form className="login100-form validate-form p-l-55 p-r-55 p-t-178">
+      <span className="login100-form-title">
+      <i className="fa fa-user" />&nbsp;
+       Sign Up
+      </span>
+      <div className="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
+        <input className="input100" type="text" name="username" placeholder="Nama" />
+        <span className="focus-input100" />
+      </div>
+      <div className="wrap-input100 validate-input m-b-16" data-validate="Please enter ttl">
+        <input className="input100" type="date" name="username" value="Tanggal lahir" />
+        <span className="focus-input100" />
+      </div>
+      <div className="wrap-input100 validate-input m-b-16" data-validate="Please enter Gender">
+          <select name id className="input100">
+            <option value selected>jenis kelamin</option>
+            <option value>pria</option>
+            <option value>wanita</option>
+          </select>
+      <span className="focus-input100" />
+      </div>
+      <div className="wrap-input100 validate-input" data-validate="Please enter password">
+        <input className="input100" type="password" name="pass" placeholder="Password" />
+        <span className="focus-input100" />
+      </div>
+      <div className="text-right p-t-13 p-b-23">
+      </div>
+      <div className="container-login100-form-btn">
+        <button className="login100-form-btn">
+          Sign up
+        </button>
+      </div>
+      <div className="flex-col-c p-t-170 p-b-40">
+      </div>
+    </form>
+  </div>
+</div>
+</div>
     )}
