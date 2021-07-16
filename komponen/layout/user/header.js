@@ -7,6 +7,9 @@ export default function header() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="nav nav-pills">
         <li className="nav-item">
+        <img src='/ab.gif' className="img-fluid" width={50} height={70}/>
+        </li>
+        <li className="nav-item">
         <a className="nav-link nav" style ={{color:'#fff'}} aria-current="page" href="/user/home">Home</a>
         </li>
         <li className="nav-item">

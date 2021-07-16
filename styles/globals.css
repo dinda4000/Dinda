@@ -11,30 +11,19 @@ a {
   text-decoration: none;
 }
 
-.glow {
-  font-size: 40px;
-  color: #fff;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-  @-webkit-keyframes glow {
-  from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4300fa, 0 0 40px #57bcff, 0 0 50px #6b00e6, 0 0 60px #0004e6, 0 0 70px #3549ff;
-     }
-  
-  to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #fcff4d, 0 0 40px #f3ff4d, 0 0 50px #d9ff02, 0 0 60px #edfc25, 0 0 70px #e4ff4d, 0 0 80px #d3e910;
-    }
-  }
-.fo { 
 
-  background-image: url("../public/unnamed.jpg");
-  background-size: cover ; 
+* {
+  box-sizing: border-box;
+}
+
+.fo{
+  background-image: url('../public/yyyyy.jpg');
+  background-size: cover;
   color: #0070f3;
-  height: 700px;
-  }
+  height: 410px;
+  width: auto;
+
+}
 .p{
   font: 1em sans-serif;
   color: #fff;
@@ -54,6 +43,3 @@ background-color: rgb(0, 162, 255);
 color: white;
 text-align: center;
 }
-/* p {
-  text-align:justify;
-} */
